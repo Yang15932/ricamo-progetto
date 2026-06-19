@@ -52,7 +52,7 @@ section.alt { background: #f7f1e8; }
 .lead-mark { display: inline-block; margin-bottom: 18px; padding: 5px 10px; background: var(--accent); color: #fff; font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; }
 .intro-text p, .body-copy p, .card p, .news-copy p, .timeline-card p, .form-note p { margin: 0 0 14px; color: #5e5853; font-size: 15px; }
 .image-card { background: var(--paper); box-shadow: var(--shadow); }
-.image-card img { width: 100%; height: auto; }
+.image-card img { width: 100%; height: 260px;object-fit：cover }
 .section-center { text-align: center; }
 .section-center .desc { max-width: 900px; margin: 0 auto 0; color: #8a8178; font-size: 14px; }
 .grid-4 { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; }
