@@ -59,8 +59,7 @@ section.alt { background: #f7f1e8; }
 .grid-4 { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; }
 .grid-3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
 .card { background: var(--paper); height: auto;
-  display: flex;
-  flex-direction: column!important;
+  display: block;
 }
 .card img { width: 100%!important; height:auto; object-fit: cover;flex-shrink: 0; }
 .card-content { padding: 8px 10px 10px; 
