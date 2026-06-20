@@ -60,9 +60,9 @@ section.alt { background: #f7f1e8; }
 .grid-3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
 .card { background: var(--paper); height: auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: column!important;
 }
-.card img { width: 100%; height:auto; object-fit: cover;flex-shrink: 0; }
+.card img { width: 100%!important; height:auto; object-fit: cover;flex-shrink: 0; }
 .card-content { padding: 8px 10px 10px; 
                flex-shrink:0；
               }
