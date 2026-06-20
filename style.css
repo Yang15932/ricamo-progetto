@@ -67,6 +67,7 @@ section.alt { background: #f7f1e8; }
                max-height: 130px;
   overflow-y: auto;
                flex:1;
+               weidth:100%;
               }
 .card h3 { margin: 0 0 6px; font-size: 18px; line-height: 1.35; font-weight: 500; color: #3c3936; }
 .card .sub { margin-bottom: 8px; color: var(--accent); font-size: 12px; line-height: 1.45; }
