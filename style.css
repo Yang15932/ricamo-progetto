@@ -63,7 +63,7 @@ section.alt { background: #f7f1e8; }
   flex-direction: column;
 }
 .card img { width: 100%; height:auto; object-fit: cover; }
-.card-content { padding: 14px 10px 10px; 
+.card-content { padding: 8px 10px 10px; 
                max-height: 130px;
   overflow-y: auto;
                flex:1;
