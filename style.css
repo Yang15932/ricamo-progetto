@@ -61,9 +61,8 @@ section.alt { background: #f7f1e8; }
 .card { background: var(--paper); height: auto;
   display: block;
 }
-.card img { width: 100%!important; height:auto; object-fit: cover; overflow：hidden； }
+.card img { width: 100%!important; height:auto; object-fit: cover;  }
 .card-content { padding: 8px 10px 10px; 
-             clear：both；
               }
 .card h3 { margin: 0 0 6px; font-size: 18px; line-height: 1.35; font-weight: 500; color: #3c3936; }
 .card .sub { margin-bottom: 8px; color: var(--accent); font-size: 12px; line-height: 1.45; }
